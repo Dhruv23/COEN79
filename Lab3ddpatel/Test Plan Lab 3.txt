@@ -1,0 +1,13 @@
+﻿Overall test:
+* Test the default constructor with some info //works
+* Overload the cout operator for the student class and test in rostermain, ensure the output is as expected (ID: …, First Name: …, Last Name: …) //works
+* Test roster by creating a roster and adding a default student to it //works 
+* Test roster by adding muptliple users (3) and test begin, next, and end //works
+* Test the provided code (from camino) with my implementation //works
+* My output in output_file is as expected //works
+Edge cases: 
+* Erase returns “not found” if the ID isnt found //done
+* Insert returns “list is full” if the list is at capacity //done
+* Invalid operator (not A X or L) //done
+* No last name/first name/ID //done
+* Delete if empty //done

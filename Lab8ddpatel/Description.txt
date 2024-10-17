@@ -1,0 +1,30 @@
+1. Constructor Test
+Function: testConstructor()
+Description: creates an empty deque
+2. Push Back and Back Test
+Function: testPushBackAndBack()
+Description:  adding 100 elements to the back of the deque and then prints 
+3. Push Front and Front Test
+Function: testPushFrontAndFront()
+Description:  adding 100 elements to the front of the deque and then prints 
+4. Iterator Test
+Function: testIterator()
+Description: adding 100 elements to the deque using push_back and then iterating through the deque 
+5. Pop Front Test
+Function: testPopFront()
+Description:  adding 100 elements to the deque using push_back, then removes the front element using pop_front, and prints the front and back 
+6. Pop Back Test
+Function: testPopBack()
+Description: adding 100 elements to the deque using push_back, removes the back element using pop_back, and prints the front and back elements
+7. Iterator After Pop Back Test
+Function: testIteratorAfterPopBack()
+Description: Tests the iterator after removing elements from the back. Adds 100 elements to the deque using push_back, removes 10 elements using pop_back, and then prints the remaining contents
+8. Assignment Operator Test
+Function: testAssignmentOperator()
+Description: Tests the assignment operator by creating dq1, adding elements to it and assigning it to another deque (dq2)
+9. Copy Constructor Test
+Function: testCopyConstructor()
+Description: Tests the copy constructor by creating a dq1, adding elements to it, and copying it to another deque (dq2) using the copy constructor
+10. Iterator with Value Test
+Function: testIteratorWithValue()
+Description: Tests the iterator by adding 6 elements with the same value (950) to the deque using push_back
